@@ -1,0 +1,27 @@
+name: Generate Subscribe Scripts
+
+on:
+  # main分支提交触发
+  push:
+    branches:
+      - main
+    paths:
+      - '**/*.js'
+      - '**/*.conf'
+
+# 设置权限
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 确保只有一个部署任务同时运行
+concurrency:
+  group: 'pages'
+  cancel-in-progress: true
+
+jobs:
+  detect-icons:
+    runs-on: ubuntu-latest
+    environment: github-pages
+

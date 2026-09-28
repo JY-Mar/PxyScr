@@ -30,7 +30,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  detect-icons:
+  generate-resources:
     runs-on: ubuntu-latest
     environment: github-pages
 
@@ -39,4 +39,16 @@ jobs:
         run: |
           mkdir -p docs
           cp -r scripts/* docs/
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: generate-resources
+
+    steps:
+      - name: ⬆️ Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
 

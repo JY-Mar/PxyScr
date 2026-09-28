@@ -1,15 +1,15 @@
 /*
- * NAME            : replace-json-props
+ * NAME            : replace-body-props
  * AUTHOR          : JY-Mar
  * REPO            : https://github.com/JY-Mar/PxyRes
  * UPDATER         : JY-Mar
- * UPDATED         : 2026-05-14 11:05:48 +0800
+ * UPDATED         : 2026-09-28 10:34:14 +0800
  * DESC            : 替换请求体或响应体中的JSON指定属性的值
  */
 
 // #region QuantumultX
 // [rewrite_local]
-// ^https?:\/\/vv\.video\.qq\.com\/getvinfo url script-path=https://jy-mar.github.io/PxyRes/Scripts/replace-json-props.js, requires-body=true, timeout=20, argument="http-request丨sppreviewtype>>->>0丨spsrt>>->>0", tag=移除视频片前广告
+// ^https?:\/\/vv\.video\.qq\.com\/getvinfo url script-path=https://jy-mar.github.io/PxyScr/replace-body-props.js, requires-body=true, timeout=20, argument="http-request丨sppreviewtype>>->>0丨spsrt>>->>0", tag=移除视频片前广告
 
 // [mitm]
 // hostname = vv.video.qq.com
@@ -17,7 +17,7 @@
 
 // #region Surge4 / Loon
 // [Script]
-// http-request ^https?:\/\/vv\.video\.qq\.com\/getvinfo script-path=https://jy-mar.github.io/PxyRes/Scripts/replace-json-props.js, requires-body=true, timeout=20, argument="sppreviewtype>>->>0丨spsrt>>->>0", tag=移除视频片前广告
+// http-request ^https?:\/\/vv\.video\.qq\.com\/getvinfo script-path=https://jy-mar.github.io/PxyScr/replace-body-props.js, requires-body=true, timeout=20, argument="sppreviewtype>>->>0丨spsrt>>->>0", tag=移除视频片前广告
 
 // [MITM]
 // hostname = vv.video.qq.com

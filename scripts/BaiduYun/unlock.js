@@ -9,7 +9,7 @@
 
 // #region QuantumultX
 // [rewrite_local]
-// https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user url script-response-body https://jy-mar.github.io/PxyRes/Scripts/BaiduYun/unlock.js
+// https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user url script-response-body https://jy-mar.github.io/PxyScr/BaiduYun/unlock.js
 
 // [mitm]
 // hostname = pan.baidu.com
@@ -17,7 +17,7 @@
 
 // #region Surge4 / Loon
 // [Script]
-// http-response https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user requires-body=1,max-size=0,script-path=https://jy-mar.github.io/PxyRes/Scripts/BaiduYun_unlock.js
+// http-response https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user requires-body=1,max-size=0,script-path=https://jy-mar.github.io/PxyScr/BaiduYun_unlock.js
 
 // [MITM]
 // hostname = pan.baidu.com

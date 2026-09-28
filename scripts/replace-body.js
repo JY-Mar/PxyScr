@@ -9,7 +9,7 @@
 
 // #region QuantumultX
 // [rewrite_local]
-// ^https?:\/\/vv\.video\.qq\.com\/getvinfo url script-path=https://jy-mar.github.io/PxyRes/Scripts/replace-body.js, requires-body=true, timeout=20, argument="http-request丨sppreviewtype=\d*>>->>sppreviewtype=0丨spsrt=\d*>>->>spsrt=0", tag=移除视频片前广告
+// ^https?:\/\/vv\.video\.qq\.com\/getvinfo url script-path=https://jy-mar.github.io/PxyScr/replace-body.js, requires-body=true, timeout=20, argument="http-request丨sppreviewtype=\d*>>->>sppreviewtype=0丨spsrt=\d*>>->>spsrt=0", tag=移除视频片前广告
 
 // [mitm]
 // hostname = vv.video.qq.com
@@ -17,7 +17,7 @@
 
 // #region Surge4 / Loon
 // [Script]
-// http-request ^https?:\/\/vv\.video\.qq\.com\/getvinfo script-path=https://jy-mar.github.io/PxyRes/Scripts/replace-body.js, requires-body=true, timeout=20, argument="sppreviewtype=\d*>>->>sppreviewtype=0丨spsrt=\d*>>->>spsrt=0", tag=移除视频片前广告
+// http-request ^https?:\/\/vv\.video\.qq\.com\/getvinfo script-path=https://jy-mar.github.io/PxyScr/replace-body.js, requires-body=true, timeout=20, argument="sppreviewtype=\d*>>->>sppreviewtype=0丨spsrt=\d*>>->>spsrt=0", tag=移除视频片前广告
 
 // [MITM]
 // hostname = vv.video.qq.com

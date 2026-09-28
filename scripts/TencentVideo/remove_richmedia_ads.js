@@ -9,7 +9,7 @@
 
 // #region Surge4 / Loon
 // [Script]
-// http-response ^https?:\/\/richmedia\.video\.qq\.com\/get_rich_media_info script-path=https://jy-mar.github.io/PxyRes/Scripts/TencentVideo/RichmediaAds.js, requires-body=true, timeout=20, tag=移除富媒体广告
+// http-response ^https?:\/\/richmedia\.video\.qq\.com\/get_rich_media_info script-path=https://jy-mar.github.io/PxyScr/TencentVideo/RichmediaAds.js, requires-body=true, timeout=20, tag=移除富媒体广告
 
 // [MITM]
 // hostname = richmedia.video.qq.com

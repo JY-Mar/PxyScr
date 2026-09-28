@@ -9,7 +9,7 @@
 
 // #region Surge4 / Loon
 // [Script]
-// http-response ^https?:\/\/cache\.wuji\.qq\.com\/x\/api\/wuji_cache\/object script-path=https://jy-mar.github.io/PxyRes/Scripts/TencentVideo/remove_wuji_ads.js, requires-body=true, timeout=20, tag=移除无极广告
+// http-response ^https?:\/\/cache\.wuji\.qq\.com\/x\/api\/wuji_cache\/object script-path=https://jy-mar.github.io/PxyScr/TencentVideo/remove_wuji_ads.js, requires-body=true, timeout=20, tag=移除无极广告
 
 // [MITM]
 // hostname = cache.wuji.qq.com

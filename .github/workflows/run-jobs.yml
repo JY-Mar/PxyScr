@@ -15,8 +15,8 @@ on:
     branches:
       - main
     paths:
-      - '**/*.js'
-      - '**/*.conf'
+      - "**/*.js"
+      - "**/*.conf"
 
 # 设置权限
 permissions:
@@ -26,7 +26,7 @@ permissions:
 
 # 确保只有一个部署任务同时运行
 concurrency:
-  group: 'pages'
+  group: "pages"
   cancel-in-progress: true
 
 jobs:
@@ -35,10 +35,20 @@ jobs:
     environment: github-pages
 
     steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: 🗃️ Create output directory and copy something
         run: |
           mkdir -p docs
           cp -r scripts/* docs/
+
+      - name: 📤 Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./docs
 
   deploy:
     environment:
@@ -51,4 +61,3 @@ jobs:
       - name: ⬆️ Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-

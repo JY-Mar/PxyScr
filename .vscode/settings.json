@@ -1,0 +1,49 @@
+{
+  "fileheader.configObj": {
+    "autoAdd": false,
+    "autoAddLine": 100,
+    "supportAutoLanguage": ["js"],
+    "prohibitAutoAdd": ["md", "txt", "yaml", "lsr", "lcf", "list"],
+    "atSymbol": ["@", "@"],
+    "atSymbolObj": {
+      "js": ["", "@"]
+    },
+    // 头部注释字段长度 默认为13
+    "wideNum": 16,
+    "showErrorMessage": false,
+    "language": {},
+    "functionParams": {},
+    "dateFormat": "YYYY-MM-DD HH:mm:ss ZZ",
+    "specialOptions": {
+      "FilePath": "NAME",
+      "LastEditTime": "UPDATED",
+      "LastEditors": "UPDATER",
+      "Description": "DESC"
+    },
+    "filePathColon": "/"
+  },
+  "fileheader.customMade": {
+    "FilePath": "only file name without ext",
+    "AUTHOR": "git config user.name",
+    "REPO": "https://github.com/JY-Mar/PxyRes",
+    "LastEditors": "git config user.name",
+    "LastEditTime": "Do not edit",
+    "Description": "文件描述"
+  },
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": ".*(\\/|\\\\)(Clash|Loon|General)(\\/|\\\\)Rules(\\/|\\\\).+\\.(yaml|lsr|list|txt)$",
+        "cmd": "node \"${workspaceFolder}/scriptsForNode/rulesHeaderRewrite.js\" \"${file}\""
+      },
+      {
+        "match": ".*(\\/|\\\\)(Clash|Loon|General)(\\/|\\\\)Config(\\/|\\\\).+\\.(yaml|lcf|conf)$",
+        "cmd": "node \"${workspaceFolder}/scriptsForNode/configHeaderRewrite.js\" \"${file}\""
+      },
+      {
+        "match": ".*(\\/|\\\\)(Clash|Loon|General)(\\/|\\\\)Plugins(\\/|\\\\).+\\.(plugin|lpx)$",
+        "cmd": "node \"${workspaceFolder}/scriptsForNode/pluginHeaderRewrite.js\" \"${file}\""
+      }
+    ]
+  }
+}

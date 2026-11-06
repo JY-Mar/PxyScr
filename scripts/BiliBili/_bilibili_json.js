@@ -1,3 +1,4 @@
+// By ddgksf2013
 /*
 应用名称：自用B站去广告脚本
 脚本作者：Cuttlefish

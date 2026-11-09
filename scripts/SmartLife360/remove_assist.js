@@ -1,7 +1,7 @@
 /*
  * NAME            : remove_assist
  * AUTHOR          : JY-Mar
- * REPO            : https://github.com/JY-Mar/PxyRes
+ * REPO            : https://github.com/JY-Mar/PxyCof
  * UPDATER         : JY-Mar
  * UPDATED         : 2026-07-22 10:31:44 +0800
  * DESC            : 移除360智慧生活AI助手广告

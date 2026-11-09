@@ -1,9 +1,9 @@
 /*
  * NAME            : remove_ads
  * AUTHOR          : JY-Mar
- * REPO            : https://github.com/JY-Mar/PxyRes
+ * REPO            : https://github.com/JY-Mar/PxyScr
  * UPDATER         : JY-Mar
- * UPDATED         : 2026-07-22 10:27:10 +0800
+ * UPDATED         : 2026-11-09 12:29:21 +0800
  * DESC            : 移除广告
  */
 

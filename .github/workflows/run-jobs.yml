@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
     inputs:
       force_update:
-        description: "强制更新配置"
+        description: "Force Update"
         required: false
         default: false
         type: boolean

@@ -1,7 +1,7 @@
 /*
  * NAME            : remove_banner_ads
  * AUTHOR          : JY-Mar
- * REPO            : https://github.com/JY-Mar/PxyRes
+ * REPO            : https://github.com/JY-Mar/PxyCof
  * UPDATER         : JY-Mar
  * UPDATED         : 2026-07-22 10:33:54 +0800
  * DESC            : 移除360智慧生活推广横幅广告

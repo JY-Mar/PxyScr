@@ -1,9 +1,9 @@
 /*
  * NAME            : remove_app_upgrade
  * AUTHOR          : JY-Mar
- * REPO            : https://github.com/JY-Mar/PxyRes
+ * REPO            : https://github.com/JY-Mar/PxyCof
  * UPDATER         : JY-Mar
- * UPDATED         : 2026-05-14 10:28:00 +0800
+ * UPDATED         : 2026-11-09 12:33:05 +0800
  * DESC            : 移除360智慧生活应用升级
  */
 

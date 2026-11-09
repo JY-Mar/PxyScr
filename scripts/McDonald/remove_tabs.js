@@ -1,9 +1,9 @@
 /*
  * NAME            : remove_tabs
  * AUTHOR          : JY-Mar
- * REPO            : https://github.com/JY-Mar/PxyRes
+ * REPO            : https://github.com/JY-Mar/PxyCof
  * UPDATER         : JY-Mar
- * UPDATED         : 2026-09-28 09:37:24 +0800
+ * UPDATED         : 2026-11-09 12:32:06 +0800
  * DESC            : 精简Tab栏
  */
 

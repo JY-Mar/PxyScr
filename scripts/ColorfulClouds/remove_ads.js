@@ -1,9 +1,9 @@
 /*
  * NAME            : remove_ads
  * AUTHOR          : JY-Mar
- * REPO            : https://github.com/JY-Mar/PxyRes
+ * REPO            : https://github.com/JY-Mar/PxyScr
  * UPDATER         : JY-Mar
- * UPDATED         : 2026-10-08 12:24:12 +0800
+ * UPDATED         : 2026-11-09 12:29:31 +0800
  * DESC            : 移除首页推广、弹窗、悬浮窗、底栏天气助手、和工具箱入口，移除我的页面广告横幅
  */
 

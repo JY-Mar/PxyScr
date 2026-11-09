@@ -1,9 +1,9 @@
 /*
  * NAME            : remove_ads
  * AUTHOR          : JY-Mar
- * REPO            : https://github.com/JY-Mar/PxyRes
+ * REPO            : https://github.com/JY-Mar/PxyScr
  * UPDATER         : JY-Mar
- * UPDATED         : 2026-06-17 09:05:17 +0800
+ * UPDATED         : 2026-11-09 12:28:16 +0800
  * DESC            : 高德地图移除广告
  */
 

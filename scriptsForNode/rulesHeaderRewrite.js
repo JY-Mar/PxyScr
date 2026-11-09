@@ -1,9 +1,9 @@
 /*
  * NAME            : rulesHeaderRewrite
  * AUTHOR          : JY-Mar
- * REPO            : https://github.com/JY-Mar/PxyRes
+ * REPO            : https://github.com/JY-Mar/PxyCof
  * UPDATER         : JY-Mar
- * UPDATED         : 2026-04-30 16:42:48 +0800
+ * UPDATED         : 2026-11-09 12:35:46 +0800
  * DESC            : 规则文件 头信息重写
  */
 

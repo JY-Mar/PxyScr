@@ -1,9 +1,9 @@
 /*
  * NAME            : unlock
  * AUTHOR          : Nobyda,JY-Mar
- * REPO            : https://github.com/JY-Mar/PxyRes
+ * REPO            : https://github.com/JY-Mar/PxyScr
  * UPDATER         : JY-Mar
- * UPDATED         : 2026-09-28 09:35:26 +0800
+ * UPDATED         : 2026-11-09 12:29:12 +0800
  * DESC            : 百度网盘整合版（NobyDa、chengkongyiban） 解锁 SVIP、在线视频倍率/清晰度（动态数值）
  */
 

@@ -1,9 +1,9 @@
 /*
  * NAME            : replace-body
  * AUTHOR          : mieqq,JY-Mar
- * REPO            : https://github.com/JY-Mar/PxyRes
+ * REPO            : https://github.com/JY-Mar/PxyScr
  * UPDATER         : JY-Mar
- * UPDATED         : 2026-05-13 09:47:14 +0800
+ * UPDATED         : 2026-11-09 12:28:06 +0800
  * DESC            : 替换请求体或响应体
  */
 

@@ -1,7 +1,7 @@
 /*
  * NAME            : configHeaderRewrite
  * AUTHOR          : JY-Mar
- * REPO            : https://github.com/JY-Mar/PxyRes
+ * REPO            : https://github.com/JY-Mar/PxyCof
  * UPDATER         : JY-Mar
  * UPDATED         : 2026-05-08 15:15:10 +0800
  * DESC            : 配置文件 头信息重写
